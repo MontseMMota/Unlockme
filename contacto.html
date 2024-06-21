@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <link rel="icon" type="image/svg" href="img/Logo.svg">
+        <title>Contacta con Unlock Me If You Can...</title>
+        <link rel="stylesheet" href="src/output.css">
+        <link rel="stylesheet" href="src/styles.css">
+        <link rel="stylesheet" href="src/modal-salas.css">
+        <link rel="stylesheet" href="src/form.css">
+    </head>
+    <body class="bg-background-color">
+        <header class="p-6 flex justify-between">
+            <nav id="nav" class="main-nav">
+                <ul class="nav-links">
+                  <li class="link-item font-inter text-2xl font-bold"><a href="contacto.html"  target="_blank">Contacto</a></li>
+                  <li class="link-item font-inter text-2xl font-bold link-salas"><a  href="salas.html"  target="_blank">Nuestras salas</a></li>
+                  <li class="link-item font-inter text-2xl font-bold"><a href="preguntas.html"  target="_blank">Preguntas frecuentes</a></li>
+                </ul>
+            </nav>
+            <button id="button-menu" class="button-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <a href="index.html" class="logo"><img src="img/Logo.svg" alt="llave como logo de Unlock Me If You Can"></a>
+            <div class="visible-nav">
+                <ul class="primary-light-10 flex justify-end text-primary-light-10">
+                    <li class="border-accent p-1"><a href="regalo.html" target="_blank">Bono Regalo</a></li>
+                </ul>
+            </div>
+        </header>
+    <section class="text-center  screen-contacto  mx-8 lg:mx-16">
+        <div class="relative h-40 flex justify-center items-center mt-12">
+            <div class="title-shadow absolute p-40 mt-20"></div>
+            <h1 class="text-accent-secondary text-shadow text-center absolute font-title text-4xl md:text-5xl lg:text-7xl">Contacto</h1>
+          </div>
+          
+
+            <p  class=" text-primary-light-20 font-inter my-10 text-lg md:text-xl  md:mx-[6rem] lg:mx-[18rem]">¿Quieres sesiones personalizadas, tienes preguntas
+                que no se responden en nuestras FAQs o te gustaría crear una sala con nosotros? Escribenos y te
+                ayudaremos lo antes posible.</p>
+                <form action="#" method="post" id="form"  class="grid sm:grid-cols-1 lg:grid-cols-2 my-10 mx-14 md:mx-40">
+                    <div class="flex-col w-auto">
+                        <div class="form-control">
+                            <label for="name" class="flex justify-start mb-4 text-white">Nombre</label>
+                            <input type="text" name="name" id="name" class="border-accent bg-transparent text-white">
+                            <small></small>
+                        </div>
+                        <div class="form-control">
+                            <label for="email" class="flex justify-start my-4 text-white">Correo electrónico</label>
+                            <input type="email" name="email" id="email" class="border-accent bg-transparent text-white">
+                            <small></small>
+                        </div>
+                        <div class="form-control">
+                            <label for="telephone" class="flex justify-start my-4 text-white">Teléfono</label>
+                            <input type="tel" name="telephone" id="telephone" class="border-accent bg-transparent text-white">
+                            <small></small>
+                        </div>
+                        <div class="flex lg:justify-end lg:align-bottom">
+                            <button id="button" class="btn btn-modal font-inter text-white bg-primary-dark-10 mt-10 mx-auto lg:mx-0">Enviar</button>
+                        </div>
+                    </div>
+                    <div class="mb-9 lg:col-span-1 mt-10 lg:ml-14"> 
+                        <textarea name="" id="" placeholder="Escribe tu mensaje aquí." class="border-accent bg-transparent font-subtitle p-2 text-white"></textarea>
+                    </div>
+                </form>
+                <div class="modal text-center">
+                    <div class="modal__container">
+                        <h2 class="modal_title font-subtitle text-xl mb-4">Hemos recibido tu mensaje</h2>
+                        <img src="img/Logo.svg" alt="Logo" class="modal__img">
+                        <p class="modal__paragraph font-subtitle">Pronto nos pondremos en contacto contigo.</p>
+                        <a href="#" class="modal__close btn">Entendido</a>
+                    </div>
+                </div>
+        
+ </section>
+
+ 
+ <footer class="flex flex-col md:flex-row justify-between w-full">
+    <div class="flex items-center justify-center">
+        <ul class="text-primary-light-20 flex flex-col md:flex-row items-center justify-between text-center m-3 w-72">
+            <li><a href="">Aviso legal</a></li>
+            <li><a href="">Política de privacidad</a></li>
+            <li><a href="">Política de cookies</a></li>
+        </ul>
+    </div>
+    <div class="flex flex-col mx-auto items-center w-72 m-3">
+        <a href="index.html" class="logo">
+            <img class="mx-auto" src="img/Logo.svg" alt="Logo">
+        </a>
+        <h4 class="text-secondary-light-10 text-shadow text-l font-subtitle text-center">¡Copyright © 2024 Unlock Me
+            If you can!</h4>
+    </div>
+    <div class="flex items-center justify-center m-3">
+        <ul class="flex items-center justify-around w-72">
+            <li><a href=""><img src="img/instagram.svg" alt="logo instagram"></a></li>
+            <li><a href=""><img src="img/whatsapp.svg" alt="logo whatsapp"></a></li>
+            <li><a href=""><img src="img/tiktok.svg" alt="logo tiktok"></a></li>
+        </ul>
+    </div>
+</footer>
+<div id="shadow"></div>
+<script src="js/light.js"></script>
+<script src="js/burger.js"></script>
+<script src="js/form.js"></script>
+</body>
+</html>

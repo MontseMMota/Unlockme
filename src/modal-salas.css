@@ -1,0 +1,59 @@
+@import url(root.css);
+
+/****************************************modal*/
+
+.modal {
+    z-index: 99;
+   position: fixed;
+   top:0;
+   left:0;
+   right: 0;
+   bottom: 0;
+   background-color: var(--background-color);
+   display: flex;
+   color: #000;
+   opacity: 0;
+   pointer-events: none;
+
+}
+
+.modal--show {
+    opacity: 1;
+    pointer-events: unset;
+}
+
+.modal__container {
+    width: 50%;
+    background-color: var(--accent-primary);
+    margin: auto;
+    max-width: 600px;
+    border-radius: 6px;
+    padding: 2em 2em;
+    display: grid;
+    place-items: center;
+    grid-auto-columns: 100%;
+}
+
+
+.modal__paragraph {
+    color:white;
+    margin-bottom: 10px;
+}
+
+@media (min-width : 798px) {
+  
+    .modal__img {
+        width: 10%;
+    
+    } 
+      
+}
+
+
+
+
+ .modal__close {
+    margin-top: 1.5em;
+}
+
+

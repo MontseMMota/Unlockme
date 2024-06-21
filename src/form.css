@@ -1,0 +1,36 @@
+/**********************************Validaciones formulario*/
+small {
+    text-align: left;
+}
+
+.error input {
+    border: 2px solid red;
+    background-color: transparent;
+}
+
+input {
+    background-color: transparent;
+}
+
+.error small {
+    color: var(--primary-light-20);
+    display: block;
+    font-size: 0.8rem;
+
+}
+
+input:focus,
+input:active{
+    background-color: transparent;
+}
+
+.success input {
+    background-color: transparent;
+
+}
+
+.success small {
+    display: block;
+    font-size: 0.8rem;
+}
+

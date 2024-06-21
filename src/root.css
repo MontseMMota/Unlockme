@@ -1,0 +1,59 @@
+
+:root {
+
+    --background-color: #312F2F;
+    --primary-00: #be5ff8ff;
+    --primary-dark-10: #a511ffff;
+    --primary-dark-20: #5b0093ff;
+    --primary-light-10: #dea9ffff;
+    --primary-light-20: #f3dfffff;
+    --accent-primary: #d288ffff;
+    --secondary-00: #4fe000ff;
+    --secondary-dark-10: #42bb00ff;
+    --secondary-dark-20: #2a7700ff;
+    --secondary-light-10: #76ff2cff;
+    --secondary-light-20: #a3ff71ff;
+    --accent-secondary: #6dff1eff;
+  }
+
+@font-face {
+  font-family:'Sherlock Vintage';
+  src: url(../fonts/SherlockVintage.woff2);
+}
+
+@font-face {
+  font-family: 'Nightmare Before Christmas';
+  src: url(../fonts/Nightmare-Before-Christmas.woff2);
+}
+
+
+@font-face {
+  font-family: "Libre Baskerville";
+  src: url(../fonts/LibreBaskerville-Regular.woff2);
+}
+
+
+@font-face {
+  font-family: "DM Mono";
+  src: url(../fonts/DMMono-Regular.woff2);
+}
+
+@font-face {
+  font-family: "inter";
+  src: url(../fonts/Inter-VariableFont.woff2);
+}
+
+@font-face {
+  font-family: "Pirata One";
+  src: url(../fonts/PirataOne-Regular.woff2);
+}
+
+@font-face {
+  font-family: "Quantico";
+  src: url(../fonts/Quantico-Regular.woff2);
+}
+
+@font-face {
+  font-family: "New Rocker";
+  src: url(../fonts/NewRocker-Regular.woff2);
+}

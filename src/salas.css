@@ -1,0 +1,155 @@
+@import url(root.css);
+
+
+.historia-salas {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: calc(10rem - 1vw);
+    margin-top: 6rem;
+    margin-left: calc(3rem + 4vw);
+    margin-right: calc(3rem + 4vw);
+  }
+
+
+
+@media (min-width : 998px) {
+    .historia-salas {
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 9rem;
+        margin-right: 9rem;
+      }
+
+      .info-salas {
+        grid-column: span 2;
+      }
+      
+}
+
+@media (min-width : 1280px) {
+
+    .info-salas {
+      padding: calc(4rem + 1vw);
+
+    }
+    
+}
+
+
+
+  .info-salas {
+    container: infosalas / inline-size;
+  }
+  
+  
+  @container infosalas (min-width: 700px) {
+    .info-salas p {
+      font-size: calc(1em + 1cqi);
+      margin-inline: calc(1rem + 2cqi); 
+      
+
+    }
+  }
+  
+  .info-salas p{
+    margin-inline: 2rem;
+    line-height: calc(1.5rem + 2cqi);
+    text-align: center;
+    margin-bottom: max(1em, 1em + 1cqi);
+  }
+  
+
+  
+  .section-sala {
+    
+    margin-inline: calc(3rem + 4vw);
+    text-align: justify;
+    line-height: calc(5rem + 4vw);
+  }
+
+  .section-sala p{
+    margin-bottom: 2rem;
+  }
+
+  .heading-sala {
+    font-size: calc(1em + 0.5cqi);
+  }
+  
+  .heading-sala ~ p, .heading-sala-precios  {
+      font-size: calc(1em + 0.1cqi);
+      
+  }
+
+
+  .tablainfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: calc(1rem + 4vw);
+  }
+
+
+  @media (min-width : 768px) {
+    .tablainfo {
+      flex-direction: row;
+    }
+}
+
+  .tablainfo__precios {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 4rem 3rem;
+  }
+
+  .heading-sala-precios {
+
+    border-bottom: 1px solid var(--accent-secondary);
+    padding: 10px 20px;
+
+  }
+
+
+
+
+.calendario {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+@media (min-width : 768px) {
+  .calendario {
+    width: 70%;
+  }
+}
+
+.form-salas {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: calc(10rem - 1vw);
+  margin-left: calc(3rem + 4vw);
+  margin-right: calc(3rem + 4vw);
+}
+
+
+@media (min-width : 998px) {
+  .form-salas {
+
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+}
+
+
+
+.btn-salas {
+  padding: 10px 50px;
+}
+
+strong {
+  color: var(--primary-light-10)
+}
+
+
+.titulo-mazmorra{
+  width: 60%;
+}
